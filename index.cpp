@@ -11,9 +11,9 @@ enum Door {
 // Function to convert door to string
 string doorToString(Door d) {
     switch(d) {
-        case EXIT: return "Safe Exit 🚪";
-        case TRAP: return "Trap ⚠️";
-        case START: return "Back to Start 🔄";
+        case EXIT: return "Safe Exit ";
+        case TRAP: return "Trap ";
+        case START: return "Back to Start ";
     }
     return "Unknown";
 }
